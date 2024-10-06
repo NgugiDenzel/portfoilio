@@ -1,24 +1,24 @@
 // src/pages/Home.jsx
-import image_denzel from 'C:/Users/Admin/portfolio/src/assets/images/denzel.jpg'
+import image_denzel from '../assets/images/denzel.jpg'
 
-import Contact from './Contact';
 
 const Home = () => {
   return (
-    <div className="mb-10 container">
+    <div className="projectcontainer">
        <figure className='flex justify-center'> <img src={image_denzel} className=' rounded-full' alt="" /></figure>
-      <p className="text-3xl text-orange-700 flex justify-center px-16">
-      Hi i am Denzel, a frontend developer
+      <p className="text-3xl text-white  px-16 flex justify-center">
+      
+      DENZEL <br />
+      WEB DEVELOPER <br />
       Bringing ideas to life using code 
-
       </p><br />
-      <p className='text-2xl text-blue-400'>I specialize in creating responsive, user-friendly web applications using modern technologies like React and Tailwind CSS. With a passion
-         for clean, efficient code,
-          I love solving problems and delivering exceptional digital experiences.</p>
+      <br /><br />
 
+
+      <div className='flex justify-center'><a href="/projects" className="bg-black outline-white text-white rounded-full px-4 py-3">View My Work</a></div>
+      
    
     <br /><br /><br />
-    <Contact />
     </div>
   );
 };
